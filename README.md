@@ -20,3 +20,4 @@ Assumptions:
 
 Other Ideas:
 - Framework can be further structured to accommodate more robust approach
+- Flipkart app is a react app. Need to find a best approach to automate React Native apps.
