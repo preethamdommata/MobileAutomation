@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="253.569" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\preethamr\IdeaProjects\MobileAutomation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\preethamr\IdeaProjects\MobileAutomation"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\PREETH~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="E:\LeanTaasAutomation\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;c:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Git\bin\;E:\gradle-2.5-bin\gradle-2.5\bin;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Skype\Phone;E:\Android\android-sdk_r24.4.1-windows\android-sdk-windows\tools;E:\Android\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools;C:/Program Files (x86)/Appium/;C:\Program Files\Taurus\bin;E:\LeanTaasAutomation\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;C:\ProgramData\Oracle\Java\javapath;c:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Git\bin\;E:\gradle-2.5-bin\gradle-2.5\bin;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Skype\Phone;E:\Android\android-sdk_r24.4.1-windows\android-sdk-windows\tools;E:\Android\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools;C:/Program Files (x86)/Appium/;C:\Program Files\Taurus\bin;E:\LeanTaasAutomation\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;C:\ProgramData\Oracle\Java\javapath;c:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Git\bin\;E:\gradle-2.5-bin\gradle-2.5\bin;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Skype\Phone;E:\Android\android-sdk_r24.4.1-windows\android-sdk-windows\tools;E:\Android\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools;C:/Program Files (x86)/Appium/;C:\Program Files\Taurus\bin;E:\LeanTaasAutomation\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;C:\WINDOWS\System32;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Users\preethamr\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\preethamr\AppData\Local\Programs\Python\Python35-32\;C:\Users\preethamr\AppData\Roaming\npm;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\preethamr"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="preethamr"/>
+    <property name="java.class.path" value="E:\LeanTaasAutomation\apache-maven-3.3.9-bin\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -Pmobiles"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\LeanTaasAutomation\apache-maven-3.3.9-bin\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="getMobiles" classname="com.imaginea.assignment.specs.MobilesSpec" time="160.831">
+    <failure message="An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.66 seconds&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;PRINHYLTPDL0795&apos;, ip: &apos;192.168.153.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities [{appPackage=com.flipkart.android, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.19.101:5555, platform=LINUX, deviceUDID=192.168.19.101:5555, appActivity=com.flipkart.android.SplashActivity, desired={appPackage=com.flipkart.android, appActivity=com.flipkart.android.SplashActivity, platformVersion=6.0, browserName=Android, platformName=Android, deviceName=Nexus51}, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=Android, javascriptEnabled=true, deviceModel=Nexus5, platformName=Android, deviceManufacturer=Genymotion}]&#10;Session ID: 5fecbc82-9b9b-4436-bfa4-3fea060efdc9" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.66 seconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'PRINHYLTPDL0795', ip: '192.168.153.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_101'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.flipkart.android, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.19.101:5555, platform=LINUX, deviceUDID=192.168.19.101:5555, appActivity=com.flipkart.android.SplashActivity, desired={appPackage=com.flipkart.android, appActivity=com.flipkart.android.SplashActivity, platformVersion=6.0, browserName=Android, platformName=Android, deviceName=Nexus51}, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=Android, javascriptEnabled=true, deviceModel=Nexus5, platformName=Android, deviceManufacturer=Genymotion}]
+Session ID: 5fecbc82-9b9b-4436-bfa4-3fea060efdc9
+	at com.imaginea.assignment.specs.MobilesSpec.getMobiles(MobilesSpec.java:40)
+</failure>
+    <system-out><![CDATA[...
+... TestNG 6.11 by Cédric Beust (cedric@beust.com)
+...
+
+Extra 5% off* with Axis Bank Buzz Credit Card
+FREE Delivery by tomorrow
+No cost EMI ?834/ month
+Cash on Delivery
+Share
+Easy Payment Options
+•
+No cost EMI starting from ?834/month
+•
+Cash on Delivery
+•
+Net banking & Credit/ Debit/ ATM card
+Highlights
+ADD TO CART
+BUY NOW
+FREE Delivery by tomorrow
+No cost EMI ?723/ month
+Cash on Delivery
+Share
+Easy Payment Options
+•
+No cost EMI starting from ?723/month
+•
+Cash on Delivery
+•
+Net banking & Credit/ Debit/ ATM card
+Highlights
+ADD TO CART
+BUY NOW
+Easy Payment Options
+•
+No cost EMI starting from ?2,000/month
+•
+Cash on Delivery
+•
+Net banking & Credit/ Debit/ ATM card
+1-year Buyback Guarantee
+?149
+499
+70% off
+Flipkart guarantees the best exchange value of ?8,500 when you upgrade to a new phone.
+Know More
+Tip: Best for users who keep upgrading to latest smartphones.
+Product
+?17,999
++
+Guarantee
+?149
+Highlights
+•
+4 GB RAM | 64 GB ROM | Expandable Upto 128 GB
+ADD TO CART
+BUY NOW
+]]></system-out>
+    <system-err><![CDATA[Oct 23, 2017 7:17:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+Oct 23, 2017 7:19:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>

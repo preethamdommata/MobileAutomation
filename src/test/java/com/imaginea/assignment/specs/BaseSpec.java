@@ -9,6 +9,12 @@ import java.util.concurrent.TimeUnit;
 public class BaseSpec {
 
     private static AndroidDriver driver;
+    private static String PLATFORM_NAME = System.getProperty("platformName");
+    private static String DEVICE_NAME = System.getProperty("deviceName");
+    private static String PLATFORM_VERSION = System.getProperty("platformVersion");
+    private static String APP_PACKAGE = System.getProperty("appPackage");
+    private static String APP_ACTIVITY = System.getProperty("appActivity");
+    private static String BROWSER_NAME = System.getProperty("browserName");
 
     /**
      * Initializes the Android driver as per the capabilities passed
@@ -18,12 +24,12 @@ public class BaseSpec {
      */
     public static AndroidDriver start() throws MalformedURLException, InterruptedException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("platformName", "Android");
-        capabilities.setCapability("deviceName", "Nexus51");
-        capabilities.setCapability("platformVersion", "6.0");
-        capabilities.setCapability("appPackage", "com.flipkart.android");
-        capabilities.setCapability("appActivity", "com.flipkart.android.SplashActivity");
-    capabilities.setCapability("BROWSER_NAME", "Android");
+        capabilities.setCapability("platformName", PLATFORM_NAME);
+        capabilities.setCapability("deviceName", DEVICE_NAME);
+        capabilities.setCapability("platformVersion", PLATFORM_VERSION);
+        capabilities.setCapability("appPackage", APP_PACKAGE);
+        capabilities.setCapability("appActivity", APP_ACTIVITY);
+    capabilities.setCapability("browserName", BROWSER_NAME);
 
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
     driver.manage().timeouts().implicitlyWait(80, TimeUnit.SECONDS);

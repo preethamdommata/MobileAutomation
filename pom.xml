@@ -8,8 +8,20 @@
     <artifactId>MobileAutomation</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <dependencies>
+    <properties>
+        <maven-surefire.version>2.19.1</maven-surefire.version>
+        <maven-surefire-plugin.version>2.5</maven-surefire-plugin.version>
+        <maven-compiler.version>2.2</maven-compiler.version>
+        <holdBrowserOpen>true</holdBrowserOpen>
+        <platformName>Android</platformName>
+        <deviceName>Nexus51</deviceName>
+        <platformVersion>6.0</platformVersion>
+        <appPackage>com.flipkart.android</appPackage>
+        <appActivity>com.flipkart.android.SplashActivity</appActivity>
+        <browserName>Android</browserName>
+    </properties>
 
+    <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
@@ -47,8 +59,38 @@
             <artifactId>support-v4</artifactId>
             <version>r7</version>
         </dependency>
-
     </dependencies>
+
+    <profiles>
+    <profile>
+        <id>mobiles</id>
+        <activation>
+            <activeByDefault>true</activeByDefault>
+        </activation>
+        <build>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>${maven-surefire.version}</version>
+                    <configuration>
+                        <systemPropertyVariables>
+                            <platformName>${platformName}</platformName>
+                            <deviceName>${deviceName}</deviceName>
+                            <platformVersion>${platformVersion}</platformVersion>
+                            <appPackage>${appPackage}</appPackage>
+                            <appActivity>${appActivity}</appActivity>
+                            <browserName>${browserName}</browserName>
+                        </systemPropertyVariables>
+                        <suiteXmlFiles>
+                            <suiteXmlFile>${basedir}/testng.xml</suiteXmlFile>
+                        </suiteXmlFiles>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </build>
+    </profile>
+    </profiles>
 
 
 
